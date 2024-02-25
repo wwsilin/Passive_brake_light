@@ -1,4 +1,5 @@
 // Импортируем необходимые библиотеки
+
 #include <Wire.h>
 #include <Adafruit_Sensor.h>
 #include <Adafruit_ADXL345_U.h>
@@ -20,7 +21,7 @@ void setup() {
 
   // Инициализация датчика ADXL345
   if (!accel.begin()) {
-    Serial.println("Не удалось обнаружить датчик ADXL345. Проверьте подключение!");
+    Serial.println("Датчик ADXL345 не подключен!");
     while (1);
   }
 
