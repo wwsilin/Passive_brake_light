@@ -1,4 +1,4 @@
-# Passive_brake_light  
+# Passive brake light  
 
 Passive brake light for bicycle use an arduino with the adxl345 sensor.  
 
